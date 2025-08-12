@@ -1,0 +1,36 @@
+{
+  "name": "tableau-ai-generator",
+  "version": "1.0.0",
+  "description": "AI-powered Tableau workbook generator with React frontend and Flask backend",
+  "main": "index.js",
+  "scripts": {
+    "dev:frontend": "cd tableau-ai-frontend && npm run dev",
+    "dev:backend": "cd tableau-ai-backend && python app.py",
+    "build:frontend": "cd tableau-ai-frontend && npm run build",
+    "install:frontend": "cd tableau-ai-frontend && npm install",
+    "install:backend": "cd tableau-ai-backend && pip install -r requirements.txt",
+    "deploy:frontend": "cd tableau-ai-frontend && netlify deploy --prod",
+    "deploy:backend": "cd tableau-ai-backend && vercel --prod"
+  },
+  "keywords": [
+    "tableau",
+    "ai",
+    "workbook",
+    "generator",
+    "react",
+    "flask",
+    "netlify",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tableau-ai-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/tableau-ai-generator/issues"
+  },
+  "homepage": "https://github.com/yourusername/tableau-ai-generator#readme"
+}
+
