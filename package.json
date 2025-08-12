@@ -1,36 +1,23 @@
 {
   "name": "tableau-ai-generator",
-  "version": "1.0.0",
-  "description": "AI-powered Tableau workbook generator with React frontend and Flask backend",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev:frontend": "cd tableau-ai-frontend && npm run dev",
-    "dev:backend": "cd tableau-ai-backend && python app.py",
-    "build:frontend": "cd tableau-ai-frontend && npm run build",
-    "install:frontend": "cd tableau-ai-frontend && npm install",
-    "install:backend": "cd tableau-ai-backend && pip install -r requirements.txt",
-    "deploy:frontend": "cd tableau-ai-frontend && netlify deploy --prod",
-    "deploy:backend": "cd tableau-ai-backend && vercel --prod"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "tableau",
-    "ai",
-    "workbook",
-    "generator",
-    "react",
-    "flask",
-    "netlify",
-    "vercel"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/tableau-ai-generator.git"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "lucide-react": "^0.263.1"
   },
-  "bugs": {
-    "url": "https://github.com/yourusername/tableau-ai-generator/issues"
-  },
-  "homepage": "https://github.com/yourusername/tableau-ai-generator#readme"
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  }
 }
-
